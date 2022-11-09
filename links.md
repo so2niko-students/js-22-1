@@ -1,0 +1,2 @@
+- [Абсолютна та відносна адреси](https://www.contentkingapp.com/academy/urls/faq/absolute-vs-relative/)
+- [Google шрифти](https://fonts.google.com/)
