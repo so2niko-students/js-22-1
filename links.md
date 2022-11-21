@@ -1,2 +1,4 @@
 - [Абсолютна та відносна адреси](https://www.contentkingapp.com/academy/urls/faq/absolute-vs-relative/)
 - [Google шрифти](https://fonts.google.com/)
+- [Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+- [CSS Diner. CSS selector game](https://flukeout.github.io/)
