@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        strong::selection{
+            background-color: black;
+            color: whitesmoke;
+        }
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h4{
+            color: red;
+            color: #f00;
+            color: #ff0000;
+            color: #ff000034;
+            color: rgb(255, 0, 0);
+            color: rgba(255, 0, 0, .9);
+            color: hsl(360, 77%, 70%);
+            color: hsla(360, 77%, 81%, .7);
+        }
+
+        .red{
+            color: pink;
+        }
+
+        h4{
+            color: green !important;/* +1000 вартості */
+        }
+
+
+        /* body{
+            color: blue;
+        } */
+        dt:hover{
+            background-color: black;
+            color: white;
+        }
+
+        dd::first-line{/*11*/
+            text-decoration: underline;
+        }
+
+        dt::first-letter{
+            color: red;
+        }
+
+        dd{
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cascade Style Sheets</h1>
+    <h4 class="red">селектор { властивість : значення; }</h4>
+    <h3>Selectors</h3>
+    <dl><!-- Список термінів -->
+        <dt>Лінивий селектор == 0</dt>
+        <dd>Обирає всі елементи на сторінці <strong>*</strong></dd>
+        <dt>Теговий == 1</dt>
+        <dd>Назви тегів. <strong>h1, h2, h3, div, p, ol, li, dt, dl (всі теги)</strong></dd>
+        <dt>Класовий == 10</dt>
+        <dd>Селектор класу. Клас - атрибут в тегі. <strong>.element, .red, .wrapper-main</strong>. Правила: назва повинна починатись з латинської букви або спец. знаку $_ та складатись з латинських букв, цифр, _$</dd>
+        <dt>Псевдокласи == 10</dt>
+        <dd>Селектори стану. <strong>:hover, :active, :visited, :is()</strong></dd>
+        <dt>Псевдоелементи == 10</dt>
+        <dd>Не окремі елементи, а частина тегів та елементів сторінки. <strong>::placeholder, ::before, ::after, ::first-line, ::first-lette, ::selection</strong></dd>
+        <dt>По ідентифікатору == 100</dt>
+        <dd>Використовуючи атрибут id. <strong>#main, #element_red</strong></dd>
+    </dl>
+
+</body>
+</html>
