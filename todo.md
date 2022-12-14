@@ -1,1 +1,2 @@
 - [CSS white-space. Experiment it!!!](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+- [CSS animation](https://www.w3schools.com/css/css3_animations.asp)

@@ -1,0 +1,27 @@
+div div{
+    width: 35px;
+    height: 35px;
+    border: 1px solid grey;
+}
+
+.block{
+    background-color: aquamarine;
+}
+
+.inline{
+    background-color: tomato;
+}
+
+.inline div{
+    display: inline;
+}
+
+.inline-block{
+    background-color: violet;
+    font-size: 0;;
+}
+
+.inline-block div{
+    display: inline-block;
+    font-size: 1rem;
+}

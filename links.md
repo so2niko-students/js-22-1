@@ -9,3 +9,5 @@
 - [W3S JavaScript Style Guide](https://www.w3schools.com/js/js_conventions.asp)
 - [AirBnB JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Escape characters](https://en.wikipedia.org/wiki/Escape_character)
+- [Github Desktop](https://desktop.github.com/)
+- [CSS values and units](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units)
