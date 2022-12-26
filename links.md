@@ -11,3 +11,7 @@
 - [Escape characters](https://en.wikipedia.org/wiki/Escape_character)
 - [Github Desktop](https://desktop.github.com/)
 - [CSS values and units](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units)
+- [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+- [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
+- [CSS gradient generator](https://cssgradient.io/)

@@ -1,0 +1,28 @@
+
+
+table{
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    --red : red;
+    --brown : chocolate;
+}
+
+td{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+tr:nth-child(3) td:nth-child(5),
+tr:nth-child(3) td:nth-child(6),
+tr:nth-child(3) td:nth-child(7),
+tr:nth-child(3) td:nth-child(8),
+tr:nth-child(3) td:nth-child(9),
+tr:nth-child(3) td:nth-child(10),
+.red{
+    background-color: var(--red);
+}
+
+.brown{
+    background-color: var(--brown);
+}
