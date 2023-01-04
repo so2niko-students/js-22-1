@@ -100,9 +100,41 @@ function vasia(){
         }
     }
 
+
+
     const value1 = prompt(text1);
     const value2 = prompt(text2);
     const answer = func(value1, value2);
 
     alert(answer);
 }
+
+const a = 3;
+
+if(a > 0){
+    const b = 'a > 0';
+    console.log('I am in condition, b == ', b);
+}
+
+// console.log(b);
+
+//!Замикання
+//!Closures
+
+function counter(){
+    let i = 0;
+    return function(){
+        i++;
+        return i;
+    }
+}
+
+const counter1 = counter();
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
