@@ -16,3 +16,5 @@
 - [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 - [CSS gradient generator](https://cssgradient.io/)
 - [Learn JS. Області видимості, замикання](https://uk.javascript.info/closure)
+- [MDN. Animation документація](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [W3S. Animation Guide](https://www.w3schools.com/css/css3_animations.asp)

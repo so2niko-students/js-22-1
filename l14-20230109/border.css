@@ -1,0 +1,44 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.el1{    
+    border-width: 22px;
+    border-color: #45aa09;
+    border-style: dotted;
+    border: 5px dotted blue;
+}
+
+.el2{
+    border-radius: 50%;
+}
+
+.el3{
+    width: 0;
+    height: 0;
+    border: 33px solid green;
+}
+
+.el4{
+    border-bottom: 5px solid red;
+    border-right: 10px dotted grey;
+}
+
+.el5{
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-left: 33px solid transparent;
+    border-bottom: 33px solid blue;
+    border-top: 33px solid green;
+    border-right: 33px solid transparent;
+}
+
+.el6{
+    background-image: url('./Capture.PNG');
+    background-size: 4px;
+    /* background-repeat: no-repeat; */
+}

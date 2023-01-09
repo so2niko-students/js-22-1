@@ -1,0 +1,50 @@
+@keyframes jrpg_hero {
+    0%{
+        background-position: 0 0;
+    }
+    32%{
+        background-position: 0px 0;
+    }
+    33%{
+        background-position: -48px 0;
+    }
+    65%{
+        background-position: -48px 0;
+    }
+    66%{
+        background-position: -96px 0;
+    }
+    100%{
+        background-position: -96px 0;
+    }
+}
+
+.hero{
+    border: 5px solid black;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background-image: url('./skeleton_run.png');
+}
+
+.s1{   
+    width: 48px;
+    height: 72px;
+    background-image: url('./440173174.png');
+    animation: jrpg_hero 15s infinite alternate;
+}
+
+.s2{
+    background-position: -158px -64px;
+}
+.s3{
+    background-position: -280px -64px;
+}
+.s4{
+    background-position: -412px -64px;
+}
+
+.hero:hover{
+    border-color: red;
+    transition: 5s;
+}

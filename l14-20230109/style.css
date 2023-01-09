@@ -1,0 +1,26 @@
+img{
+    width: 500px;
+    border-radius: 50%;
+    border: 5px solid grey;
+    position: absolute;
+    z-index: 0;
+}
+
+img:first-child{
+    z-index: 100;
+}
+
+img:nth-child(2){
+    top: 100px;
+    left: 300px;
+}
+
+img:nth-child(3){
+    top: 350px;
+}
+
+img:nth-child(4){
+    top: 500px;
+    left: 300px;
+    /* z-index: -1; */
+}
