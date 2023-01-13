@@ -9,6 +9,7 @@
 ## 2 - Calculator
 
 Зверстайте один із калькуляторів
+
 ![calc2](https://user-images.githubusercontent.com/9075641/212370662-084d6312-e5f7-4b8e-a7c6-9d32cea63fd6.jpg)
 
 
