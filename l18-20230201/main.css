@@ -1,0 +1,12 @@
+.container{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+}
+
+.el{
+    width: 100px;
+    /* height: 100px; */
+    background-color: beige;
+    border: 1px solid black;
+}
