@@ -1,0 +1,50 @@
+header{
+    background-color: black;
+}
+
+main{
+    background-color: burlywood;
+    display: grid;
+    grid-template: 75px repeat(3, auto) / 1fr 400px;
+    /* gap: 0px 0px; */
+}
+
+.title,
+.picture,
+.description,
+.cast,
+.episodes{
+    border: 1px dashed red;
+}
+
+.title{
+    grid-column: 1 / span 2;
+}
+
+.picture{
+    grid-area: 2 / 2 / span 2 / span 1;
+}
+
+.description{
+    grid-row: 2;
+}
+
+.cast{
+    grid-row: 3;
+}
+
+.episodes{
+    grid-column: 1 / span 2;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template: 100px 1fr 100px / 1fr;
+}

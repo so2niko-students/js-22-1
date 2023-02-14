@@ -1,0 +1,37 @@
+header{
+    grid-area: Header;
+}
+
+main{
+    grid-area: Main;
+}
+
+footer{
+    grid-area: Footer;
+}
+
+.menu{
+    grid-area: Menu;
+}
+
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-color: azure;
+    display: grid;
+    grid-template: 100px auto auto 100px / 300px auto auto;
+    grid-template-areas: 'Header Header Header'
+    'Menu Main Main'
+    'Menu Main Main'
+    'Footer Footer Footer';
+    gap: 20px 40px;
+}
+
+body *{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
