@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="https://user-images.githubusercontent.com/9075641/182206079-7c4aa5f0-50d9-4808-bec7-6d3af7bdada9.gif" alt="">
+    <div class="ghosts"></div>
+    <button class="btn-hill">СТАРТ</button>
+    <div class="clock"></div>
+    <!-- <script src="main.js"></script> -->
+    <script>
+      const btn = document.querySelector('.btn-hill');
+      const textDiv = document.querySelector('.ghosts');
+      const textClock = document.querySelector('.clock');
+
+      //Стан 1
+      //Кнопка - старт
+      
+      //Стан 2
+      //Кнопка - стоп
+
+      let isStart = true;
+      let startTime = 0;
+
+      btn.onclick = () => {
+          // const r = Math.floor(Math.random() * Date.now()).toString(35);
+          // textDiv.innerText = r;
+          const headers = {
+            true : 'СТОП',
+            false : 'СТАРТ'
+          }
+         
+          btn.innerText = headers[isStart];
+
+          if(isStart){
+            startTime = Date.now();
+          }else{
+            textDiv.innerText = (Date.now() - startTime) / 1000;
+          }
+
+          isStart = !isStart;
+      }
+
+      const d = new Date();
+      console.log(d.getHours());
+      console.log(d.getMinutes());
+      console.log(d.getSeconds());
+      // let start = 0;
+      // setInterval(() => {
+      //     start++;
+      //     textClock.innerText = `${ start } --- ${ Date.now() }`;
+      // }, 1000);
+
+      // Створити Таймер.
+      // При кліці на кнопку "Старт" запускається таймер. Кнопка перетворюється на кнопку "Стоп". 
+      // При кліку на кнопку "Стоп" вона перетворюється на "Старт". На екран показується час в секундах.
+
+    </script>
+  </body>
+</html>
