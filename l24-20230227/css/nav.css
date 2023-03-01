@@ -1,0 +1,10 @@
+#up{
+    display: flex;
+}
+
+#up li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+    margin: 15px;
+    list-style-type: none;
+}

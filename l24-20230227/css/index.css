@@ -1,0 +1,10 @@
+@import url('./nav.css');
+
+body{
+    background-color: rgb(255, 228, 196);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    padding: 15px;
+}
+
