@@ -26,3 +26,5 @@
 - [CSS3 generator](http://www.css3generator.com/)
 - [CSS Sprites generator](https://www.toptal.com/developers/css/sprite-generator)
 - [Animation generator](https://www.theappguruz.com/tag-tools/web/CSSAnimations/)
+- [Конструктор регулярних виразів](https://regexr.com/)
+- [Візуалізатор регулярних виразів](https://regexper.com/)
