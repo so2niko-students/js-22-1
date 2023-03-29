@@ -28,3 +28,4 @@
 - [Animation generator](https://www.theappguruz.com/tag-tools/web/CSSAnimations/)
 - [Конструктор регулярних виразів](https://regexr.com/)
 - [Візуалізатор регулярних виразів](https://regexper.com/)
+- [Деструктуруюче присвоєння](https://uk.javascript.info/destructuring-assignment)
