@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.cookie{
+    border: 1px solid grey;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 165, 134);
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+
+.cookie button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.cookie .buttons{
+    text-align: right;
+}
+
+.cookie .btn-accept{
+    background-color: greenyellow;
+}
+
+.cookie .btn-reject{
+    background-color: red;
+}

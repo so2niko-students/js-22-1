@@ -30,7 +30,7 @@ function checkForm(ev){
     }
 
     if(pwd.length < 6){
-        passwordTextDOM.innerText += MESSAGE_INVALID_PWD;
+        passwordTextDOM.innerText = MESSAGE_INVALID_PWD;
         return;
     }
 
