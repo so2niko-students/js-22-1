@@ -1,0 +1,15 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th{
+    color: #fef1e2;
+    background-color: #12042a;
+    border-color: #fef1e2;
+}
