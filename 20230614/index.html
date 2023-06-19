@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HP characters</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="filters">
-        <button class="btn-filters" data-filter="All" data-facultet="1">All</button>
-        <button class="btn-filters" data-filter="None" data-facultet="2">None</button>
-        <button class="btn-filters" data-filter="Gryffindor" data-facultet="3">Gryffindor</button>
-        <button class="btn-filters" data-filter="Slytherin" data-facultet="4">Slytherin</button>
-        <button class="btn-filters" data-filter="Ravenclaw" data-facultet="5">Ravenclaw</button>
-        <button class="btn-filters" data-filter="Hufflepuff" data-facultet="6">Hufflepuff</button>
+        <select name="" id="sel_houses">
+            <option value="All">All</option>
+            <option value="None">None</option>
+            <option value="Gryffindor">Gryffindor</option>
+            <option value="Slytherin">Slytherin</option>
+            <option value="Ravenclaw">Ravenclaw</option>
+            <option value="Hufflepuff">Hufflepuff</option>
+        </select>
     </div>
     <table>
         <thead>
             <tr>
-                <th>Name</th>
+                <th class="header_name">Name</th>
                 <th>Gender</th>
                 <th>House</th>
                 <th>Actor</th>
