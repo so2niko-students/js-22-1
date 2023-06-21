@@ -21,3 +21,8 @@ th{
     position: fixed;
     background-color: beige;
 }
+
+#hp-characters-table-fav td{
+    background-color: rgb(172, 102, 102);
+    color: rgb(25, 20, 20);
+}
