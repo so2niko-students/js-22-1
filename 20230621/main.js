@@ -54,3 +54,4 @@ function handleDelete({ target }){
     count--;
     showData(spanCount, count);
 }
+
