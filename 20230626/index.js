@@ -22,7 +22,8 @@ function r(from = 0, to = 1000){
 console.log(randNPC());
 
 class NPC{
-    constructor(){
+    constructor(town){
+        this.town = town;
         this.age = this.r(18, 100);
         this.gender = this.r(0, 10) >= 5 ? 'female' : 'male';
         const rName = this.r(0, 100) + (this.gender === 'female' ? 0 : 100);
@@ -36,5 +37,5 @@ class NPC{
     }
 }
 
-const aa = new NPC();
+const aa = new NPC('Manchester');
 console.log(aa);
