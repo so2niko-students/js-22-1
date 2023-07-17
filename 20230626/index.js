@@ -39,3 +39,4 @@ class NPC{
 
 const aa = new NPC('Manchester');
 console.log(aa);
+
